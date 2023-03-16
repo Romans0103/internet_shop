@@ -1,0 +1,8 @@
+django-admin startproject mysite
+python manage.py migrate
+python manage.py runserver
+python manage.py startapp blog
+pip install jupyterlab
+pip install django-extensions
+python manage.py shell_plus --notebook
+pip install pytz
